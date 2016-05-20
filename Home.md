@@ -10,7 +10,6 @@
 	<li><a href="#links">Link</a></li>
 	<li><a href="#buildBBB">Building driver on BeagleBone Board</a></li>	
         <li><a href="#buildx86">Building driver on x86 platform</a></li>
-	<li><a href="#video">Video presentation</a></li>
 </ol>
 
 <h2 id="intro">SPI slave driver implementation</h2>
@@ -70,9 +69,5 @@ through the use of DMA and interrupt.</p>
 	<pre>make</pre>				
 </ol>
 
-<h2 id="video">Video presentation</h2>	
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=yBgMwMcvcKg
-" target="_blank"><img src="http://img.youtube.com/vi/yBgMwMcvcKg/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 </body>
 </html>
