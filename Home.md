@@ -10,6 +10,7 @@
 	<li><a href="#links">Link</a></li>
 	<li><a href="#buildBBB">Building driver on BeagleBone Board</a></li>	
         <li><a href="#buildx86">Building driver on x86 platform</a></li>
+	<li><a href="#video">Video presentation</a></li>
 </ol>
 
 <h2 id="intro">SPI slave driver implementation</h2>
@@ -65,8 +66,13 @@ through the use of DMA and interrupt.</p>
 	<pre>make -j3 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- defconfig</pre>
 	<pre>make -j3 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- modules</pre>	
 	<pre>cd ../</pre>
-	<li>Building SPI slave make:</li>
+	<li>Building SPI slave driver:</li>
 	<pre>make</pre>				
 </ol>
+
+<h2 id="video">Video presentation</h2>	
+<iframe width="420" height="315"
+src="http://www.youtube.com/embed/yBgMwMcvcKg?autoplay=0">
+</iframe>
 </body>
 </html>
