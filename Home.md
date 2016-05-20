@@ -71,8 +71,8 @@ through the use of DMA and interrupt.</p>
 </ol>
 
 <h2 id="video">Video presentation</h2>	
-<iframe width="420" height="315"
-src="http://www.youtube.com/embed/yBgMwMcvcKg?autoplay=0">
-</iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=yBgMwMcvcKg
+" target="_blank"><img src="http://img.youtube.com/vi/yBgMwMcvcKg/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 </body>
 </html>
