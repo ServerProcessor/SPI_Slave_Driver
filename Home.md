@@ -7,9 +7,9 @@
 <h1 id="top">SPI slave driver implementation</h1>
 <ol>
 	<li><a href="#intro">Introduction</a></li>
-	<li><a href="#links">Links</a></li>
 	<li><a href="#timeline">Development timeline</a></li>
-	<li><a href="#blockdiagram">Block diagram</a></li>	
+	<li><a href="#links">Links</a></li>
+        <li><a href="#blockdiagram">Block diagram</a></li>	
 	<li><a href="#problems">Problems</a></li>
 	<li><a href="#buildBBB">Building driver on BeagleBone Board</a></li>	
 	<li><a href="#buildx86">Building driver on x86 platform</a></li>
