@@ -6,9 +6,9 @@
 
 <h1 id="top">SPI slave driver implementation</h1>
 <ol>
-	<li><a href="#intro">Introduction</a></li>
+	<li><a href="#Introduction">Introduction</a></li>
 	<li><a href="#timeline">Development timeline</a></li>
-	<li><a href="#links">Links</a></li>
+	<li><a href="#Links">Links</a></li>
         <li><a href="#blockdiagram">Block diagram</a></li>	
 	<li><a href="#problems">Problems</a></li>
 	<li><a href="#buildBBB">Building driver on BeagleBone Board</a></li>	
@@ -16,7 +16,7 @@
 	<li><a href="#book">Books about Linux and LKM</a></li>
 </ol>
 
-<h2 id="intro">SPI slave driver implementation</h2>
+<h2 id="Introduction">Introduction</h2>
 <p>SPI slave driver implementation. The task is to create a driver controlling SPI hardware controller in slave mode,
 		and to ensure optimal performance through the use of DMA and interrupt. Creating an easy to implement realization 
 		of SPI slave would definitely help the BeagleBone community members to write applications based on SPI much more 
