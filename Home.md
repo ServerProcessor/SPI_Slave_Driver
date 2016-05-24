@@ -7,13 +7,13 @@
 <h1 id="top">SPI slave driver implementation</h1>
 <ol>
 	<li><a href="#introduction">Introduction</a></li>
-	<li><a href="#timeline">Development timeline</a></li>
-	<li><a href="#Links">Links</a></li>
-        <li><a href="#blockdiagram">Block diagram</a></li>	
+	<li><a href="#development-timeline">Development timeline</a></li>
+	<li><a href="#links">Links</a></li>
+        <li><a href="#block-diagram">Block diagram</a></li>	
 	<li><a href="#problems">Problems</a></li>
-	<li><a href="#buildBBB">Building driver on BeagleBone Board</a></li>	
-	<li><a href="#buildx86">Building driver on x86 platform</a></li>
-	<li><a href="#book">Books about Linux and LKM</a></li>
+	<li><a href="#building-on-beaglebone-board">Building driver on BeagleBone Board</a></li>	
+	<li><a href="#building-on-x86-platform">Building driver on x86 platform</a></li>
+	<li><a href="#books-about-linux-and-lkm">Books about Linux and LKM</a></li>
 </ol>
 
 <h2 id="introduction">Introduction</h2>
@@ -34,7 +34,7 @@
 
 
 </ul>
-<h2 id="timeline">Development timeline</h2>	
+<h2 id="development-timeline">Development timeline</h2>	
 <p>Each week I will devote a few hours to write the documentation.<p>
 <ol>
 <li>
@@ -121,7 +121,7 @@
 </li>
 </ul>
 
-<h2 id="blockdiagram">Block Diagram</h2>
+<h2 id="block-diagram">Block Diagram</h2>
 <img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/block_diagram.png" alt="Block Diagram" width="1114" height="793"/>
 	
 <h2 id="problems">Problems</h2>		
@@ -135,7 +135,7 @@
 </ul>	
 		
 		
-<h2 id="buildBBB">Building on BeagleBone Board</h2>	
+<h2 id="building-on-beaglebone-board">Building on BeagleBone Board</h2>	
 <ol>
 	<li>Installing compiler:</li>
 	<pre>apt-get install gcc</pre>
@@ -148,7 +148,7 @@
 	<li>Building SPI slave driver:</li>
 	<pre>make</pre>				
 </ol>
-<h2 id="buildx86">Building on x86 platform</h2>	
+<h2 id="building-on-x86-platform">Building on x86 platform</h2>	
 <ol>
 	<li>Installing the arm32 cross-compiler:</li>
 	<pre>sudo apt-get update -qq</pre>
@@ -171,7 +171,7 @@
 	<pre>make</pre>				
 </ol>
 
-<h2 id="book">Books about Linux and LKM</h2>	
+<h2 id="books-about-linux-and-lkm">Books about Linux and LKM</h2>	
 <ul>	<li>LINUX DEVICE DRIVERS, Third Edition, Jonathan Corbet, Alessandro Rubini, and Greg Kroah-Hartman pdf is here[1]</li>
 <li>Linux Kernel Development, Third Edition, Robert Love pdf is here[2]</li>
 </ul>
