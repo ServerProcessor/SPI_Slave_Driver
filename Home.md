@@ -119,7 +119,7 @@
 	<li>latest tests</li> 
 	<li>documentation, tutorials and examples</li></ul>
 </li>
-</ul>
+</ol>
 
 <h2 id="block-diagram">Block Diagram</h2>
 <img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/block_diagram.png" alt="Block Diagram" width="1114" height="793"/>
