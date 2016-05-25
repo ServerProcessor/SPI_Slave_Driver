@@ -175,9 +175,11 @@
 <ul>	<li>LINUX DEVICE DRIVERS, Third Edition, Jonathan Corbet, Alessandro Rubini, and Greg Kroah-Hartman pdf is here[1]</li>
 <li>Linux Kernel Development, Third Edition, Robert Love pdf is here[2]</li>
 </ul>
-<a href="http://infoman.teikav.edu.gr/~stpapad/linux_kernel_development_3rd_edition.pdf">[1]http://infoman.teikav.edu.gr/~stpapad/linux_kernel_development_3rd_edition.pdf</a>
 
-<a href="https://lwn.net/Kernel/LDD3/">[2]https://lwn.net/Kernel/LDD3/</a>
+<a href="https://lwn.net/Kernel/LDD3/">[1]https://lwn.net/Kernel/LDD3/</a>
+
+<a href="http://infoman.teikav.edu.gr/~stpapad/linux_kernel_development_3rd_edition.pdf">[2]http://infoman.teikav.edu.gr/~stpapad/linux_kernel_development_3rd_edition.pdf</a>
+
 	
 </body>
 </html>
