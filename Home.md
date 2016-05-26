@@ -53,8 +53,9 @@
 <li>
 	<p>Week 1(23 May -29 May)</p>
 	<ul><li>skeleton LKM</li>
-	<li>create debugging tool</li>
-	<li>prepare test code for device SPI(using spidev)</li>
+	<li>create debugging tool (dynamic debug)</li>
+	<li>configure vim for kernel coding style</li>
+        <li>prepare test code for device SPI(using spidev)✔</li>
 	<li>create DTS for SPI Slave Device settings(for example: which SPI)</li></ul>
 </li>
 <li>
