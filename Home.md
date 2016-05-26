@@ -44,11 +44,11 @@
 <ol>
 <li>
 <p>Before the first week (26 May - 28 May)</p>
-<ul><li>create a GitHub repository</li>
-<li>create eLinux page</li>
-<li>create wiki page</li>
-<li>prepare a few sd card with a Firmware Images</li>
-<li>installation of necessary software</li></ul>
+<ul><li>create a GitHub repository ✔</li>
+<li>create eLinux page ✔</li>
+<li>create wiki page ✔</li>
+<li>prepare a few sd card with a Firmware Images ✔</li>
+<li>installation of necessary software ✔</li></ul>
 </li>
 <li>
 	<p>Week 1(23 May -29 May)</p>
