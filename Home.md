@@ -174,16 +174,16 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 	<li>finally write framework</li></ul>
 </li>
 <li>
-	<p>Week 11(02 August - 09 August)</p>
-	<ul><li>documentation, tutorials and examples for SPI Slave framework</li>
-	<li>create a make script to compile and install in linux</li> 
-	<li>more tests</li></ul>
+<p>Week 11(02 August - 09 August)</p>
+<ul><li>documentation, tutorials and examples for SPI Slave framework</li>
+<li>create a make script to compile and install in linux</li> 
+<li>more tests</li></ul>
 </li>
 <li>
-	<p>Week 12(09 August - 20 August)</p>
-	<ul><li>clean up code</li>
-	<li>latest tests</li> 
-	<li>documentation, tutorials and examples</li></ul>
+<p>Week 12(09 August - 20 August)</p>
+<ul><li>clean up code</li>
+<li>latest tests</li> 
+<li>documentation, tutorials and examples</li></ul>
 </li>
 
 </ol>
