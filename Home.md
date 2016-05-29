@@ -190,11 +190,12 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 </ol>
 
 <h2 id="am335x-and-mcspi-data-sheets">AM335x and McSPI data sheets</h2>	
-<p>AM335x ARM® Cortex™-A8 Microprocessors (MPUs) Technical Reference Manual:</p>
+<ul>
+<li>AM335x ARM® Cortex™-A8 Microprocessors (MPUs) Technical Reference Manual:</li>
 <a href="http://phytec.com/wiki/images/7/72/AM335x_techincal_reference_manual.pdf">AM335x_Techincal_Reference_Manual</a>
-<p>Multichannel Serial Port Interface Technical Reference Manual:</p>
+<li>Multichannel Serial Port Interface Technical Reference Manual:</li>
 <a href="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/McSPI_Technical_Reference_Manual.pdf">McSPI_Technical_Reference_Manual</a>
-
+</ul>
 <h2 id="books-about-linux-and-lkm">Books about Linux and LKM</h2>	
 <ul>	<li>LINUX DEVICE DRIVERS, Third Edition, Jonathan Corbet, Alessandro Rubini, and Greg Kroah-Hartman pdf is here[1]</li>
 <li>Linux Kernel Development, Third Edition, Robert Love pdf is here[2]</li>
