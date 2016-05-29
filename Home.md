@@ -11,13 +11,14 @@
 <ol>
 	<li><a href="#introduction">Introduction</a></li>
 	<li><a href="#links">Links</a></li>
-    <li><a href="#block-diagram">Block diagram</a></li>	
+        <li><a href="#block-diagram">Block diagram</a></li>	
 	<li><a href="#slave-driver-in-linux-architecture">Slave driver in Linux architecture</a></li>	
 	<li><a href="#problems">Problems</a></li>
 	<li><a href="#development-timeline">Development timeline</a></li>
+	<li><a href="#am335x-and-mcspi-data-sheets">AM335x and McSPI data sheets</a></li>
+	<li><a href="#books-about-linux-and-lkm">Books about Linux and LKM</a></li>
 	<li><a href="#building-on-beaglebone-board">Building driver on BeagleBone Board</a></li>	
 	<li><a href="#building-on-x86-platform">Building driver on x86 platform</a></li>
-	<li><a href="#books-about-linux-and-lkm">Books about Linux and LKM</a></li>
 	<li><a href="#device-tree-overlays">Device Tree Overlays</a></li>
 	<li><a href="#testing-and-wiring">Testing and wiring</a></li>
 </ol>
@@ -187,7 +188,21 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 </li>
 
 </ol>
-		
+
+<h2 id="am335x-and-mcspi-data-sheets">AM335x and McSPI data sheets</h2>	
+<p>AM335x ARM® Cortex™-A8 Microprocessors (MPUs) Technical Reference Manual:</p>
+<a href="http://phytec.com/wiki/images/7/72/AM335x_techincal_reference_manual.pdf">AM335x_Techincal_Reference_Manual</a>
+<p>Multichannel Serial Port Interface Technical Reference Manual:</p>
+<a href="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/McSPI_Technical_Reference_Manual.pdf">McSPI_Technical_Reference_Manual</a>
+
+<h2 id="books-about-linux-and-lkm">Books about Linux and LKM</h2>	
+<ul>	<li>LINUX DEVICE DRIVERS, Third Edition, Jonathan Corbet, Alessandro Rubini, and Greg Kroah-Hartman pdf is here[1]</li>
+<li>Linux Kernel Development, Third Edition, Robert Love pdf is here[2]</li>
+</ul>
+
+<a href="https://lwn.net/Kernel/LDD3/">[1]https://lwn.net/Kernel/LDD3/</a>
+
+<a href="http://infoman.teikav.edu.gr/~stpapad/linux_kernel_development_3rd_edition.pdf">[2]http://infoman.teikav.edu.gr/~stpapad/linux_kernel_development_3rd_edition.pdf</a>		
 		
 <h2 id="building-on-beaglebone-board">Building on BeagleBone Board</h2>	
 <ol>
@@ -224,15 +239,6 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 	<li>Building SPI slave driver:</li>
 	<pre>make</pre>				
 </ol>
-
-<h2 id="books-about-linux-and-lkm">Books about Linux and LKM</h2>	
-<ul>	<li>LINUX DEVICE DRIVERS, Third Edition, Jonathan Corbet, Alessandro Rubini, and Greg Kroah-Hartman pdf is here[1]</li>
-<li>Linux Kernel Development, Third Edition, Robert Love pdf is here[2]</li>
-</ul>
-
-<a href="https://lwn.net/Kernel/LDD3/">[1]https://lwn.net/Kernel/LDD3/</a>
-
-<a href="http://infoman.teikav.edu.gr/~stpapad/linux_kernel_development_3rd_edition.pdf">[2]http://infoman.teikav.edu.gr/~stpapad/linux_kernel_development_3rd_edition.pdf</a>
 
 <h2 id="device-tree-overlays">Device Tree Overlays</h2>	
 <p>DTS is required to operate SPI. In repository there is three device tree source which is located in /DTS/ directory.</p>
