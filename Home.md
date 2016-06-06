@@ -106,17 +106,26 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 </li>
 <li>
 	<p>Week 1(24 May - 31 May)</p>
-	<ul><li>skeleton LKM ✔</li>
-	<li>create debugging tool (dynamic debug) ✔</li>
-	<li>prepare test application(using spidev) ✔</li>
-	<li>preapre DTS for test application ✔</li>
-	<li>create DTS for SPI Slave Device settings ✔</li></ul>
+	<ul><li>create basic function: probe, remove, init exit ✔</li>
+<li>prepare test application(using spidev) ✔</li>
+<li>add more information about a driver works (describe main problems) ✔</li>
+<li>determinate McSPI base address (reading DTS device resources) ✔</li>
+<li>create device structure(keeps all the elements of the controller) ✔</li>
+<li>allocate memory for device ✔</li>
+<li>define McSPI register ✔</li>
+<li>function for reading and writing McSPI registers ✔</li>
+	</ul>
 </li>
+
 <li>
 	<p>Week 2(31 May - 07 June) </p>
-	<ul><li>beginning work on the driver</li>
-	<li>create function: probe, remove, init exit</li>
-	<li>implementation platform device</li></ul>
+	<ul><li>set driver in slave mode ✔</li>
+	<li>set the majority of important registers, except for those related to DMA, interrupts and fifo ✔</li>
+	<li>familiarizing myself with the basics of McSPI controller ✔</li>
+	<li>reading and writing McSPI registers ✔</li>
+	<li>synchronization (pm_runtime) ✔</li>
+	<li>clean up all kernel coding style issues ✔</li>
+	<li>resolve all warnings ✔</li></ul>
 </li>
 <li>
 	<p>Week 3(07 June - 14 June)</p>
