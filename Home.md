@@ -129,10 +129,11 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 </li>
 <li>
 	<p>Week 3(07 June - 14 June)</p>
-	<ul><li>determinate base address (reading DTS device resources)</li>
-	<li>create spi slave structure</li>
-	<li>allocate memory for device</li>
-	<li>fill structures</li>
+	<ul><li>familiarizing myself and setting McSPI transmit register ✔</li>
+	<li>first test (echo); send back data which the driver receives from master ✔</li>
+	<li>setting interrupt (I had a few problems with this) ✔</li>
+	<li>adding function which waits for register bit ✔</li>
+	<li>second test (interrupt); generating interrupt after 4 bits and checking how subtracted words count ✔</li>
 </ul>
 </li>
 <li>
