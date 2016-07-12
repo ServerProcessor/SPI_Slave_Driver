@@ -50,7 +50,7 @@
 </ul>
 
 <h2 id="block-diagram">Block Diagram</h2>
-<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/block_diagram.png" alt="Block Diagram" width="1114" height="793"/>
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/how_pio_works.png" alt="Block Diagram" width="1114" height="793"/>
 	
 <h2 id="slave-driver-in-linux-architecture">Slave driver in Linux architecture</h2>
 <p>The framework in Linux should have 3 layers. In this way, there can be low level 
@@ -136,33 +136,46 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 	<li>second test (interrupt); generating interrupt after 4 bits and checking how subtracted words count ✔</li>
 </ul>
 </li>
-<li>
+
+<li<li>
 	<p>Week 4(14 June - 21 June)</p>
-	<ul>
-	<li>define McSPI register</li>
-	<li>reading and changing registers</li>	
+	<ul><li>transfer data from the FIFO to the driver buffer (for each word length) in both sides ✔</li>
+	<li>finalized working on pio transfer ✔</li>
+	<li>using tasklets for pio functions ✔</li>
+	<li>a lot of tests (various lengths transfers and various length words(bits per word)) ✔</li>
+	<li>beginning work on char driver as a framework for slave driver ✔</li>
 	</ul>
 </li>
 <li>
 	<p>Week 5(21 June - 28 June)</p>
-	<ul><li>set McSPI registers in slave mode</li>
-	<li>create interrupt(end of transmission)</li>
-	</ul>
+	<ul><li>registration and removal of char driver for each platform device ✔</li>
+	<li>adding functions: open, read, write, release, etc ✔</li>
+	<li>adding device to device list ✔</li>
+	<li>create application for user on slave device ✔</li></ul>
 </li>
 <li>
 	<p>Week 6(28 June - 05 July)</p>
 	<ul>
-	<li>allocate memory for tx and rx buffer</li>
-	<li>read and write McSPI buffer(PIO)</li>
-	<li>first test SPI slave</li></ul>
+	<li>finalized work on char driver ✔</li>
+	<li>improved prototype slave application and pio transfer ✔</li>
+	<li>added  ioctl ✔</li>
+	<li>made thorough reconstruction of the driver ✔</li>
+</ul>
 </li>
 <li>
-	<p>Week 7(05 July - 12 July)</p>
-	<ul><li>start working on the dma</li>
-	<li>create DMA structure</li>
-	<li>create DMA channel</li></ul>
-</li>
-<li>
+	<p>Week 7(05 July - 12 July)✔</p>
+	<ul>
+<li>finalized work on thorough reconstruction of the driver ✔</li>
+<li>first prototype test ✔</li>
+<li>finalized work on ioctl and poll ✔</li>
+<li>finalized work on prototype slave application and pio transfer ✔</li>
+<li>familiarizing myself with DMA ✔</li>
+<li>searched for bugs and repaired them ✔</li>
+<li>upgraded travis script ✔</li>
+<li>made a nice diagram ✔</li>
+
+</ul>
+</li><li>
 <p>Week 8(12 July - 17 July)</p><ul>
 	<li>configuring dma channel</li>
 	<li>interrupt for dma</li>
