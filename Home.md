@@ -15,6 +15,7 @@
 	<li><a href="#slave-driver-in-linux-architecture">Slave driver in Linux architecture</a></li>	
 	<li><a href="#problems">Problems</a></li>
 	<li><a href="#development-timeline">Development timeline</a></li>
+        <li><a href="#photos-from-tests">Photos from tests</a></li>
 	<li><a href="#am335x-and-mcspi-data-sheets">AM335x and McSPI data sheets</a></li>
 	<li><a href="#books-about-linux-and-lkm">Books about Linux and LKM</a></li>
 	<li><a href="#building-on-beaglebone-board">Building driver on BeagleBone Board</a></li>	
@@ -211,6 +212,13 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 </li>
 
 </ol>
+
+<h2 id="photos-from-tests">Photos from tests</h2>	
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/pio_2MHz_img.png" alt="PIO test 2MHz" width="700" height="450"/>	
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/pio_10MHz_img.png" alt="PIO test 10MHz" width="700" height="450"/>	
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/pio_16MHz_img.png" alt="PIO test 16MHz" width="700" height="450"/>	
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/pio_25MHz_img.png" alt="PIO test 20MHz" width="700" height="450"/>	
+
 
 <h2 id="am335x-and-mcspi-data-sheets">AM335x and McSPI data sheets</h2>	
 <ul>
