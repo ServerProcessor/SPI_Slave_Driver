@@ -335,7 +335,7 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 </ol>
 
 
-<h2 id="installing-on-BB-platform">Installing driver on BB platform</h2>	
+<h2 id="installing-on-BB-platform">Installing on BB platform</h2>	
 
 <ol><h3>Installing DTS:</h3>
 <li>Make an entry:</li>
