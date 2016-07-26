@@ -361,7 +361,12 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 
 <h2 id="first-data-transfer">First data transfer</h2>	
 <ol>
+<li>Run SPI slave application:</li>
+<pre>./slave_app --w --r</pre>
+<li>Application and driver waiting for the data, connect the master and make your first transfer!!!</li>
 </ol>
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/pio_con.png" alt="pio console"/>
+
 
 <h2 id="testing-and-wiring">Testing and wiring</h2>	
 <h3>The first option:</h3>
