@@ -19,8 +19,8 @@
 	<li><a href="#am335x-and-mcspi-data-sheets">AM335x and McSPI data sheets</a></li>
 	<li><a href="#books-about-linux-and-lkm">Books about Linux and LKM</a></li>
 	<li><a href="#building-on-x86-platform">Building driver on x86 platform</a></li>
-	<li><a href="#prepare-BB-board">Prepare BB board</a></li>
-	<li><a href="#installing-on-BB-platform">Installing driver on BB platform</a></li>
+	<li><a href="#prepare-bb-board">Prepare BB board</a></li>
+	<li><a href="#installing-on-bb-platform">Installing driver on BB platform</a></li>
 	<li><a href="#first-data-transfer">First data transfer</a></li>
 	<li><a href="#testing-and-wiring">Testing and wiring</a></li>
 </ol>
@@ -283,7 +283,7 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 <pre>vermagic:       4.4.8-ti-r22 SMP mod_unload modversions ARMv7 thumb2 p2v8 </pre> 
 </ol>
 
-<h2 id="prepare-BB-board">Prepare BB board</h2>	
+<h2 id="prepare-bb-board">Prepare BB board</h2>	
 
 <ol><h3>Disabling the BeagleBone black hdmi cape</h3>
 <li>Mount the FAT partition:</li>
@@ -335,7 +335,7 @@ functions to call by protocol drivers, and then a top protocol driver layer whic
 </ol>
 
 
-<h2 id="installing-on-BB-platform">Installing on BB platform</h2>	
+<h2 id="installing-on-bb-platform">Installing on BB platform</h2>	
 
 <ol><h3>Installing DTS:</h3>
 <li>Make an entry:</li>
