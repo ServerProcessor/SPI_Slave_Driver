@@ -3,9 +3,9 @@
     <meta charset="UTF-8">
 </head>
 <body>
-<a href="https://summerofcode.withgoogle.com"><img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/gsoc-basic-logo.png" alt="GSOC" width="231" height="125"/></a>
-<a href="https://beagleboard.org"><img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/beagleboard_logo.png" alt="BeagleBoard.org" width="98" height="125"/></a>
-<a href="http://www.elinux.org"><img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/logo-linux.png" alt="eLinux.org" width="107" height="125"/></a>
+<a href="https://summerofcode.withgoogle.com"><img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/gsoc-basic-logo.png" alt="GSOC" width="231" height="125"/></a>
+<a href="https://beagleboard.org"><img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/beagleboard_logo.png" alt="BeagleBoard.org" width="98" height="125"/></a>
+<a href="http://www.elinux.org"><img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/logo-linux.png" alt="eLinux.org" width="107" height="125"/></a>
 	
 <h1 id="top">SPI slave driver implementation</h1>
 <ol>
@@ -53,14 +53,14 @@
 </ul>
 
 <h2 id="block-diagram">Block Diagram</h2>
-<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/how_pio_works.png" alt="Block Diagram" width="1114" height="793"/>
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/how_pio_works.png" alt="Block Diagram" width="1114" height="793"/>
 	
 <h2 id="slave-driver-in-linux-architecture">Slave driver in Linux architecture</h2>
 <p>The framework in Linux should have 3 layers. In this way, there can be low level 
 hardware interfaces to SPI hardware like McSPI in slave mode, a middle layer of common 
 functions to call by protocol drivers, and then a top protocol driver layer which can be used to implement. 
 </p>
-<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/3layer.png" alt="3 Layer Diagram" width="450" height="360"/>
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/3layer.png" alt="3 Layer Diagram" width="450" height="360"/>
 	
 <h2 id="problems">Problems</h2>		
 <h3>The main problems that don't allow us to create a fully universal generic SPI slave driver.</h3>
@@ -316,10 +316,10 @@ thankful for Andrew for his support during the draft preparation. Many thanks to
 supported me during GSoC. You are amazing.	
 
 <h2 id="photos-from-tests">Photos from tests</h2>	
-<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/pio_2MHz_img.png" alt="PIO test 2MHz" width="700" height="450"/>	
-<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/pio_10MHz_img.png" alt="PIO test 10MHz" width="700" height="450"/>	
-<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/pio_16MHz_img.png" alt="PIO test 16MHz" width="700" height="450"/>	
-<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/pio_25MHz_img.png" alt="PIO test 20MHz" width="700" height="450"/>	
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/pio_2MHz_img.png" alt="PIO test 2MHz" width="700" height="450"/>	
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/pio_10MHz_img.png" alt="PIO test 10MHz" width="700" height="450"/>	
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/pio_16MHz_img.png" alt="PIO test 16MHz" width="700" height="450"/>	
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/pio_25MHz_img.png" alt="PIO test 20MHz" width="700" height="450"/>	
 
 
 <h2 id="am335x-and-mcspi-data-sheets">AM335x and McSPI data sheets</h2>	
@@ -466,7 +466,7 @@ supported me during GSoC. You are amazing.
 <pre>./slave_app --w --r</pre>
 <li>Application and driver waiting for the data, connect the master and make your first transfer!!!</li>
 </ol>
-<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/pio_con.png" alt="pio console"/>
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/pio_con.png" alt="pio console"/>
 
 
 <h2 id="testing-and-wiring">Testing and wiring</h2>	
@@ -474,9 +474,9 @@ supported me during GSoC. You are amazing.
 <p>One AM335x processor contains two McSPI controllers, 
 what allows to use one controller as  slave and the 
 other as  master. This allows to carry out tests on one board.</p>
-<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/one_bb.png" alt="one beaglebone" width="242" height="338"/>	
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/one_bb.png" alt="one beaglebone" width="242" height="338"/>	
 <h3>The second option:</h3>
 <p>The second option is to use two boards where one works as master and the other as slave.</p>
-<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/documentation/two_bb.png" alt="two beaglebones" width="436" height="338"/>
+<img src="https://raw.githubusercontent.com/pmezydlo/SPI_slave_driver_implementation/master/wiki/two_bb.png" alt="two beaglebones" width="436" height="338"/>
 </body>
 </html>
